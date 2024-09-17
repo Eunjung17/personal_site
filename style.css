@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("img/computer.jpg");
+  background-size: cover;
+  background-color: #e3e6f6;
+  font-size: 16px;
+  font-family: 'Tahoma', sans-serif;
+  /* filter: blur(5px); */
+  /* filter: grayscale(90%); */
+}
+
+body {
+  background-color: #d2e8f4;
+  box-shadow: 0 0 12px -2px black;
+  padding: 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: x-large;
+  margin: 0 5px;
+}
+
+nav {
+  box-shadow: 0 0 12px -2px black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: #5707a1;
+  color: aliceblue;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  min-height: 100vh;
+  padding: 85px 24px 96px;
+  box-shadow: 0 0 12px -2px black;
+  color: rgb(42, 122, 208);
+  font-family: 'Tahoma', sans-serif;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #5707a1;
+  color: aliceblue;
+  height: 70px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 12px -2px black;
+}
+
+footer a {
+  margin: 0 25px;
+}
+
+footer .media-link {
+  height: 45px;
+}
+
+.active {
+  border-bottom: 1px solid #c0c0c0;
+}
+
+main > img {
+  /* height: 500px; */
+  width: 350px;
+  float: right;
+  margin: 10px 0 10px 10px;
+  border-radius: 5%;
+  box-shadow: 0 0 12px -2px rgb(42, 41, 41);
+}
+
+main > h2 {
+  color: rgb(9, 49, 24);
+}
+
+main .quote {
+  font-family: 'Satisfy', cursive;
+  color: rgb(249, 247, 218);
+  font-size: 50px;
+  font-weight: 100;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  margin-top: 4em;
+}
+
+section {
+  border-top: 1px solid #bbb;
+  font-size: 16px;
+}
+
+.about-section img {
+  height: 128px;
+  margin: 10px 0 10px 10px;
+  border-radius: 2%;
+  box-shadow: 0 0 12px -2px rgb(42, 41, 41);
+}
+
+#about-header {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.project {
+  width: calc(100% - 6em);
+  background: #fafafa;
+  color: #222;
+  box-shadow: 0 3px 6px -2px #ccc;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-content img {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

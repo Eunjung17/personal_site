@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script defer src="/javascript.js"></script>
+    <title>Personal Website</title>
+  </head> 
+  <body>
+    <nav>
+      <div id="logo">
+        <h1>Eunjung Kim</h1>
+      </div>
+      <!-- <div class="links">
+        <a href="index.html">Home</a>
+        <a class="div_bar" href="about.html">About</a>
+        <a class="div_bar" href="portfolio.html">Portfolio</a>
+        <a class="div_bar active" href="#">Contact</a>
+      </div> -->
+
+      <div class="links">
+        <div><a href="index.html">Home</a></div>
+        <div class="div_bar" ><a href="about.html">About</a></div>
+        <div class="div_bar" ><a href="portfolio.html">Portfolio</a></div>
+        <div class="div_bar"><a class="active" href="#">Contact</a></div>
+      </div>
+    </nav>
+    <main>
+      <h1 id="project-header">Contact <br><br></h1>
+      <div class="project_2">
+        <div class="formSize">
+          <form action="success.html" id="form" target="_blank">
+            <h5>I’d love to hear from you. Please fill out the form. <br>We’ll get back to you as soon as possible! Thank you.<br><br></h3>
+            <section style="display:flex;">
+              <section ><label >Name:</label></section>
+              <section style="margin-left: 6%;"><input  type="text" id="fname" name="fname"><br><br></section>       
+            </section>
+            <section style="display:flex;">
+              <section><label >Email:</label></section>
+              <section style="margin-left: 6.5%;"><input  type="text" id="lname" name="lname"><br><br></section>
+            </section>
+            <section style="display:flex;">
+              <section><label class="reLocate" >Message:</label></section>
+              <section style="margin-left: 2%;">
+                <!-- <textarea id="txtarea" rows="10" cols="70" contenteditable="true"> -->
+                <textarea class="txtArea" rows="10" cols="70">
+                </textarea><br><br>
+              </section>
+            </section>
+            <input style="margin-left: 18%;" type="submit" id="submit">
+            <input style="margin-left: 3%;" type="reset" value="Reset">
+          </form>
+        </div>
+      </div>
+
+
+    </main>
+    <footer>
+      <a href="https://facebook.com" target="_blank">
+        <img class="media-link" src="/img/facebook.svg" alt="Facebook" />
+      </a>
+      <a href="https://linkedin.com" target="_blank">
+        <img class="media-link" src="/img/linkedin.svg" alt="Linkedin" />
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img class="media-link" src="/img/twitter.svg" alt="Twitter" />
+      </a>
+    </footer>
+    <!-- <link href="footer.html" rel="import" /> -->
+  </body>
+</html>
+
